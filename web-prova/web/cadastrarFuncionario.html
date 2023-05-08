@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form method="POST" action="Controle">
+                <input type="hidden" name="flag" value="cadastro">
+                <p>
+                    <label for="matriculaFuncionario">Matricula do Funcionario:</label>
+                    <input type="text" size="20" maxlength="20" name="matriculaFuncionario" id="matriculaFuncionario" required>
+                </p>
+                <p>
+                    <label for="nomeFuncionario">Nome do Funcionario:</label>
+                    <input type="text" size="70" maxlength="70" name="nomeFuncionario" id="nomeFuncionario" required>
+                </p>
+                <p>
+                    <label for="cargoFuncionario">Cargo do Funcionario:</label>
+                    <input type="text" size="50" maxlength="50" name="cargoFuncionario" id="cargoFuncionario" >
+                </p>        
+                <p>
+                    <label for="idadeFuncionario">Idade do Funcionario:</label>
+                    <input type="text" name="idadeFuncionario" id="idadeFuncionario" >
+                </p>
+                <p>
+                    <label for="salarioFuncionario">Salario do Funcionario:</label>
+                    <input type="text" name="salarioFuncionario" id="salarioFuncionario">
+                </p>
+                <input type="submit" value="Incluir">
+            </form>
+        </div>
+    </body>
+</html>
